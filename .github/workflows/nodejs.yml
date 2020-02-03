@@ -29,3 +29,4 @@ jobs:
         FOLDER: storybook-static # The folder the action should deploy.
         GIT_CONFIG_NAME: fwchen
         GIT_CONFIG_EMAIL: me@chenfangwei.com
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
